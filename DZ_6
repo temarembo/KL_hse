@@ -1,0 +1,24 @@
+import pymorphy2
+
+
+text = "зафиксированная на каком-либо материальном носителе человеческая мысль; в общем плане связная и полная последовательность символов."
+text_split = text.split(' ')
+
+File=open("itog.txt","w")
+
+morph = pymorphy2.MorphAnalyzer()
+
+for a in text_split:
+    parse1 = morph.parse(a)[0]
+    File.write("Простой разбор ")
+    File.write(str(parse1))
+    result = parse1.normalized
+    File.write("Нормализовано: ")
+    File.write(str(result))
+    sklon = parse1.inflect({"gent"})
+    File.write("Склонение в родительном: ")
+    File.write(str(sklon))
+    lex = parse1.lexeme
+    File.write("Лексемы: ")
+    File.write(str(lex))
+    File.write("***")
