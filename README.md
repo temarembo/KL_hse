@@ -6,3 +6,7 @@
   2. dz4.py
 
 ![Alt Text](https://simple-fauna.ru/wp-content/uploads/2015/10/bolshaya-panda-vneshnij-vid.jpg)
+
+
+
+Информация здесь: https://www.youtube.com/
