@@ -5,4 +5,4 @@
   1. DZ_6
   2. dz4.py
 
-![Alt Text](https://yandex.ru/collections/card/5b5bf8d2a947cc0096abfaee/)
+![Alt Text](https://simple-fauna.ru/wp-content/uploads/2015/10/bolshaya-panda-vneshnij-vid.jpg)
